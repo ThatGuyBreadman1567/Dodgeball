@@ -30,24 +30,7 @@ public class DodgeballMain extends JFrame implements ActionListener
 		
 		Timer t1 = new Timer(15,this);
 		t1.start();
-		
-//		Insets inset = this.getInsets();
-//		inset.set(10, 10, this.getHeight()-40, this.getWidth()-25);
-//		
-//		this.addComponentListener(new ComponentListener()
-//				{
-//					public void componentResized(ComponentEvent e) 
-//					{
-//						inset.set(10, 10, getHeight()-40, getWidth()-25);
-//					}
-//					public void componentMoved(ComponentEvent e) {	
-//					}
-//					public void componentShown(ComponentEvent e) {	
-//					}
-//					public void componentHidden(ComponentEvent e) {
-//					}
-//				});
-		
+
 		addKeyListener(new KeyListener()
 		{
 			public void keyPressed(KeyEvent e) 
